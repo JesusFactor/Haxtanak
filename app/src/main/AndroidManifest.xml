@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jovanovic.stefan.mytestapp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.SET_ALARM"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/icon"
+        android:label="Հաղթանակի Ծրագիր"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".onboarding.DestinationActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".onboarding.screens.Settings"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".onboarding.screens.About"
+            android:exported="true" />
+        <activity android:name=".september.Sep30" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep29" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep28" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep27" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep26" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep25" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep24" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep23" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep22" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep21" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep20" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep19" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep18" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep17" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep16" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep15" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep14" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep13" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep12" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep11" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep10" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep9" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep8" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep7" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep6" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep5" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep4" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep3" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep2" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep1" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy30" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy29" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy28" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy27" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy26" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy25" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy24" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy23" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy22" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy21" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy20" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy19" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy18" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy17" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy16" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy15" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy14" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy13" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy12" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy11" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy10" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy9" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy8" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy7" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy6" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy5" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy4" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy3" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy2" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noy1" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos31" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos30" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos29" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos28" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos27" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos26" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos25" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos24" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos23" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos22" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos21" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos20" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos19" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos18" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos17" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos16" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos15" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos14" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos13" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos12" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos11" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos10" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos9" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos8" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos7" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos6" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos5" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos4" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos3" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos2" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos1" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis31" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis30" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis29" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis28" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis27" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis26" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis25" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis24" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis23" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis22" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis21" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis20" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis19" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis18" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis17" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis16" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis15" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis14" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis13" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis12" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis11" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis10" android:screenOrientation="portrait"/>
+        <activity android:name=".april.Hulis9" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis8" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis7" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis6" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis5" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis4" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis3" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis2" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis1" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis30" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis29" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis28" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis27" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis26" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis25" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis24" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis23" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis22" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis21" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis20" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis19" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis18" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis17" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis16" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis15" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis14" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis13" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis12" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis11" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis10" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis9" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis8" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis7" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis6" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis5" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis4" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis3" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis2" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis1" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis31" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis30" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis29" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis28" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis27" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis26" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis25" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis24" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis23" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis22" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis21" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis20" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis19" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis18" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis17" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis16" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis15" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis14" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis13" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis12" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis11" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis10" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis9" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis8" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis7" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis6" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis5" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis4" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis3" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis2" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis1" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April30" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April29" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April28" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April27" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April26" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April25" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April24" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April23" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April22" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April21" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April20" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April19" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April18" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April17" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April16" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April15" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April13" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April12" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April11" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April10" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April9" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April8" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April7" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April6" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April5" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April4" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April14" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April3" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April2" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April1" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart31" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart30" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart29" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart28" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart27" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart26" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart25" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart24" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart23" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart22" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart21" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart20" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart19" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart18" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart17" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart16" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart15" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart14" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart13" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart12" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart11" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart10" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart9" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart8" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart7" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart6" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart5" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart4" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart3" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart2" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart1" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar28" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar27" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar26" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar25" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar24" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar23" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar22" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar21" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar20" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar19" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar18" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar17" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar16" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar15" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar14" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar13" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar12" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar11" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar10" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar9" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar8" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar7" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar6" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar5" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar4" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar3" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar2" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar1" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember31" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember30" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember29" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember28" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember27" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember26" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember25" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember24" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember23" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember22" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember21" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember20" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember19" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember18" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember17" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember16" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember15" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember14" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember13" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember12" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember11" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember10" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember9" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember8" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember7" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember6" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember5" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember4" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember3" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember2" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember1" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar31" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar30" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar29" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar28" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar27" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar26" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar25" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar24" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar21" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar20" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar19" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar18" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar17" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar16" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar15" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar14" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar13" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar23" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar12" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar22" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar11" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar10" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember31" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember30" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember29" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember28" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember27" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember26" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember25" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember24" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember23" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember22" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember21" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember20" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember19" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember18" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember17" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember16" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember15" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember14" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember13" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember11" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember12" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember10" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember9" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember8" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember7" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember6" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember5" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember4" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember3" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember2" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember1" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar9" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar8" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar7" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar6" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar5" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar4" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar3" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar2" android:screenOrientation="portrait"/>
+        <activity android:name=".Hunvar.Hunvar1" android:screenOrientation="portrait"/>
+        <activity android:name=".DektemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".NoyemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HoktemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SeptemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".OgostosActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HulisActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HunisActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MayisActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AprilActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MartActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PetrvarActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HunvarActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".onboarding.AlarmReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.jovanic.stepan.mytestapp.START_ALARM" >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
