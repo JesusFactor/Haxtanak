@@ -1,0 +1,3707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jovanovic.stefan.mytestapp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.SET_ALARM"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/icon"
+        android:label="Հաղթանակի Ծրագիր"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+		<activity
+            android:name=".days_words.DektemberDay31Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay31Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay31Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.DektemberDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.NoyemberDay1Word1"
+			android:screenOrientation="portrait"  />
+		<activity
+            android:name=".days_words.HoktemberDay31Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay31Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay31Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HoktemberDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.SeptemberDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay31Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay31Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay31Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.OgostosDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay31Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay31Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay31Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HulisDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunisDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay31Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay31Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay31Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MayisDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.AprilDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay31Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay31Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay31Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.MartDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.PetrvarDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay31Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay30Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay23Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay22Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay21Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay18Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay16Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay14Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay12Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay10Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay8Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay5Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay29Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay28Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay26Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay25Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay18Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay16Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay14Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay12Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay10Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay7Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay3Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay2Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay31Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay24Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay23Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay22Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay18Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay16Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay14Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay12Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay10Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay9Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay8Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay5Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay1Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay29Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay28Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay27Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay26Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay25Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay24Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay20Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay19Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay17Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay15Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay13Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay11Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay9Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay7Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay6Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay4Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay3Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay2Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay1Word3"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay31Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay30Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay27Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay24Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay23Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay22Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay21Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay20Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay19Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay17Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay15Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay13Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay11Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay9Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay8Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay6Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay5Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay4Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay1Word2"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay30Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay29Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay28Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay27Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay26Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay25Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay21Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay20Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay19Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay17Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay15Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay13Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay11Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay7Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay6Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay4Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay3Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:name=".days_words.HunvarDay2Word1"
+			android:screenOrientation="portrait" />
+		<activity
+            android:screenOrientation="portrait"
+            android:name=".onboarding.DestinationActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".onboarding.screens.Settings"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".onboarding.screens.About"
+            android:exported="true" />
+        <activity android:name=".september.Sep30" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep29" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep28" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep27" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep26" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep25" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep24" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep23" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep22" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep21" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep20" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep19" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep18" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep17" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep16" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep15" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep14" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep13" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep12" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep11" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep10" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep9" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep8" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep7" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep6" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep5" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep4" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep3" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep2" android:screenOrientation="portrait"/>
+        <activity android:name=".september.Sep1" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember30" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember29" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember28" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember27" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember26" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember25" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember24" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember23" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember22" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember21" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember20" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember19" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember18" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember17" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember16" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember15" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember14" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember13" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember12" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember11" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember10" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember9" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember8" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember7" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember6" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember5" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember4" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember3" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember2" android:screenOrientation="portrait"/>
+        <activity android:name=".noyember.Noyember1" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos31" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos30" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos29" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos28" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos27" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos26" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos25" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos24" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos23" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos22" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos21" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos20" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos19" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos18" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos17" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos16" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos15" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos14" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos13" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos12" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos11" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos10" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos9" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos8" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos7" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos6" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos5" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos4" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos3" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos2" android:screenOrientation="portrait"/>
+        <activity android:name=".ogostos.Ogostos1" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis31" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis30" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis29" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis28" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis27" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis26" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis25" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis24" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis23" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis22" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis21" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis20" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis19" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis18" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis17" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis16" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis15" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis14" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis13" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis12" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis11" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis10" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis9" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis8" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis7" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis6" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis5" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis4" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis3" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis2" android:screenOrientation="portrait"/>
+        <activity android:name=".hulis.Hulis1" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis30" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis29" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis28" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis27" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis26" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis25" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis24" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis23" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis22" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis21" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis20" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis19" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis18" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis17" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis16" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis15" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis14" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis13" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis12" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis11" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis10" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis9" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis8" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis7" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis6" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis5" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis4" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis3" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis2" android:screenOrientation="portrait"/>
+        <activity android:name=".hunis.Hunis1" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis31" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis30" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis29" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis28" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis27" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis26" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis25" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis24" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis23" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis22" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis21" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis20" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis19" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis18" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis17" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis16" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis15" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis14" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis13" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis12" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis11" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis10" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis9" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis8" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis7" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis6" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis5" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis4" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis3" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis2" android:screenOrientation="portrait"/>
+        <activity android:name=".mayis.Mayis1" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April30" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April29" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April28" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April27" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April26" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April25" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April24" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April23" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April22" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April21" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April20" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April19" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April18" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April17" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April16" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April15" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April13" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April12" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April11" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April10" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April9" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April8" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April7" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April6" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April5" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April4" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April14" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April3" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April2" android:screenOrientation="portrait"/>
+        <activity android:name=".april.April1" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart31" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart30" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart29" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart28" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart27" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart26" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart25" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart24" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart23" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart22" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart21" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart20" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart19" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart18" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart17" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart16" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart15" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart14" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart13" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart12" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart11" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart10" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart9" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart8" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart7" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart6" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart5" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart4" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart3" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart2" android:screenOrientation="portrait"/>
+        <activity android:name=".mart.Mart1" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar28" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar27" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar26" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar25" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar24" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar23" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar22" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar21" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar20" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar19" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar18" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar17" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar16" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar15" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar14" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar13" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar12" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar11" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar10" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar9" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar8" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar7" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar6" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar5" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar4" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar3" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar2" android:screenOrientation="portrait"/>
+        <activity android:name=".petrvar.Petrvar1" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember31" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember30" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember29" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember28" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember27" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember26" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember25" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember24" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember23" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember22" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember21" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember20" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember19" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember18" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember17" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember16" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember15" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember14" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember13" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember12" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember11" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember10" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember9" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember8" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember7" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember6" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember5" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember4" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember3" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember2" android:screenOrientation="portrait"/>
+        <activity android:name=".hoktember.Hoktember1" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar31" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar30" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar29" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar28" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar27" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar26" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar25" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar24" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar21" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar20" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar19" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar18" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar17" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar16" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar15" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar14" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar13" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar23" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar12" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar22" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar11" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar10" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember31" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember30" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember29" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember28" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember27" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember26" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember25" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember24" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember23" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember22" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember21" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember20" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember19" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember18" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember17" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember16" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember15" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember14" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember13" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember11" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember12" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember10" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember9" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember8" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember7" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember6" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember5" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember4" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember3" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember2" android:screenOrientation="portrait"/>
+        <activity android:name=".dektember.Dektember1" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar9" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar8" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar7" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar6" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar5" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar4" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar3" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar2" android:screenOrientation="portrait"/>
+        <activity android:name=".hunvar.Hunvar1" android:screenOrientation="portrait"/>
+        <activity android:name=".DektemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".NoyemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HoktemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SeptemberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".OgostosActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HulisActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HunisActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MayisActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AprilActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MartActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PetrvarActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HunvarActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".onboarding.AlarmReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.jovanic.stepan.mytestapp.START_ALARM" >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

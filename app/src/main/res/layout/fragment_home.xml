@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+
+    <Button
+        android:id="@+id/հունվար"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:autoSizeTextType="none"
+        android:background="@drawable/roundstyle"
+        android:text="հունվար"
+        app:layout_goneMarginStart="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/փետրվար"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="փետրվար"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100" />
+
+    <Button
+        android:id="@+id/մարտ"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="մարտ"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.180" />
+
+    <Button
+        android:id="@+id/ապրիլ"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="ապրիլ"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.260" />
+
+    <Button
+        android:id="@+id/հունիս"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="հունիս"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.420" />
+
+    <Button
+        android:id="@+id/հուլիս"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="հուլիս"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/օգոստոս"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="օգոստոս"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.580" />
+
+    <Button
+        android:id="@+id/սեպտեմբեր"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="սեպտեմբեր"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.660" />
+
+    <Button
+        android:id="@+id/հոկտեմբեր"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="հոկտեմբեր"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.740" />
+
+
+    <Button
+        android:id="@+id/նոյեմբեր"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="նոյեմբեր"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.820" />
+
+    <Button
+        android:id="@+id/դեկտեմբեր"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="դեկտեմբեր"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.900" />
+
+    <Button
+        android:id="@+id/մայիս"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/roundstyle"
+        android:text="մայիս"
+        app:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.340" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        android:background="@drawable/nooottiff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <Button
+        android:id="@+id/logo"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:background="@drawable/home_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <View
+        android:id="@+id/bottombar"
+        android:layout_width="416dp"
+        android:layout_height="54dp"
+        android:background="@drawable/view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/դեկտեմբեր"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
